@@ -1,0 +1,118 @@
+*{
+ font-family: 'roboto',sans-serif;   
+margin: 0;
+padding: 0;
+}
+header nav img {
+    width: 25%;
+}
+header nav div ul {
+    display: flex;
+}
+li {
+    list-style-type: none ;
+    color: #897d7d;
+    cursor: pointer;
+    margin-right: 30px;
+}
+li:hover{
+    color:aquamarine;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 3px 4px rgb(220, 220, 220);
+    padding: 1.2%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+.icon{
+    width: 3%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 8%;
+}
+h1{
+    text-align: center ;
+    margin-top: 3%;
+    font-weight: lighter;
+}
+.Mypara {
+color: #747474 ;
+width: 40%;
+font-size: 16px;
+letter-spacing: 1.5px;
+}
+.container {
+display: flex;
+justify-content: space-evenly;
+margin-top: 3%;
+}
+.mypara2 {
+    color: #747474 ;
+    text-align: center ;
+    width: 40%;  
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 3%;
+}
+button {
+ background-color:#1662c6 ;    
+ color: white;
+ outline: none;
+ border: none;
+ outline: none;
+ padding-left: 1%;
+ padding-right: 1%;
+ padding-top: 0.5%;
+ padding-bottom: 0.5%;
+ border-radius: 4px;
+ cursor: pointer;
+}
+button:hover {
+background-color: #1662c6 ;
+}
+.container-card {
+display: flex;
+align-items: center;
+justify-content: space-between ;
+width: 100%;
+padding-top: 1%;
+padding-bottom: 1%;
+}
+.warsaw {
+    width: 100%;
+}
+.card {
+    border-radius: 8px;
+    cursor: pointer;
+    width: fit-content;
+    margin-left :5%;
+    margin-top :5%;
+    margin-bottom :5%;
+}
+.card:hover{
+  box-shadow: 0 12px 15px rgb(112, 112, 112); 
+}
+.country-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.button-center {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 3%;
+}
+.footer-text {
+   text-align: center; 
+   color:rgb(102, 96, 96);
+   margin-top :3%;
+   
+   font-weight: lighter;
+}
